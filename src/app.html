@@ -1,12 +1,22 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr" data-theme="modern">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="text-scale" content="scale" />
 		%sveltekit.head%
 	</head>
+
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
+		<div class="grid min-h-screen grid-rows-[auto_1fr]">
+			<header class="p-4"></header>
+			<div class="container mx-auto grid grid-cols-1 xl:grid-cols-[200px_minmax(0px,_1fr)_200px]">
+				<aside class="sticky top-0 col-span-1 hidden h-screen p-4 xl:block"></aside>
+				<main class="col-span-1 space-y-4 p-4">
+					<div style="display: contents">%sveltekit.body%</div>
+				</main>
+			</div>
+		</div>
 	</body>
+	<footer class="p-4"></footer>
 </html>
