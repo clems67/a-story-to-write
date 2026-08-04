@@ -1,0 +1,52 @@
+[
+	{
+		"id": 1,
+		"before_input": "Curieux de cet étrange liquide, vous vous décidez à …",
+		"after_input": "Satisfait de votre action, vous décidez de vous mettre en route, et commencez votre marche le long de la galerie.",
+        "story_id":"2",
+		"options": [
+			{
+				"input": "le boire",
+				"result": "Vous observez encore quelques instants le fragile flacon entre vos doigts, avant de vous décider à en ôter le bouchon de liège. D’un geste peu assuré, vous le portez à vos lèvres, et en une gorgée seulement, vous ingurgitez tout son contenu. Aussitôt, la bouteille vous glisse des mains et tombe au sol, votre ventre semble se tordre, comme s’il voulait se dévorer lui-même. Les forces semblent vous quitter et vous tombez à genoux. Votre tête s’alourdie, le monde tourne infernalement et vous vous effondrez brusquement, une légère coulure bleuâtre au coin des lèvres.\nLa mort vous a emporté.",
+				"end_story": true
+			},
+			{
+				"input": "jeter la fiole par terre",
+				"result": "Sans vraiment réfléchir, vous jetez le flacon au sol. Celui-ci ne se brise pas, au contraire, il rebondit légèrement sur la pierre avant de s’arrêter. Vous le fixez quelques instants, et le temps d’un clignement, il a disparu. Ahuris, vous regardez autour de vous, avant de sentir quelque chose dans votre poche. Vous y glissez vos doigts, et à votre plus grande surprise, il s’agit de cette même fiole jetée quelques instants à peine. Comprenant que cette petite bouteille ne vous fausserez pas compagnie de si tôt, vous la replacer dans votre vêtement."
+			},
+			{
+				"input": "ranger la fiole / la remettre dans ma poche",
+				"result": "Vous regardez quelques instants de plus le flacon, avant de le replacer dans votre poche, sans y prêter attention davantage."
+			},
+			{
+				"input": "observer / regarder la fiole davantage",
+				"result": "Vous regardez le flacon avec insistance, comme s’il allait vous révéler de lui-même ses secrets. Vous approchez le flacon de vos yeux, et faites un pas vers les cristaux environnants afin d’obtenir davantage de lumière. Vous remarquez alors de petits points blancs flottant dans le liquide épais. Vous mettez un instant avant de vous souvenir de leur appellation, mais vous pensez bien qu’il s’agit de petites graines. Satisfait de votre découverte, vous replacez la petite fiole dans votre poche."
+			},
+			{
+				"input": "verser le contenu de la fiole par terre",
+				"result": "Vous regardez le flacon, avant d’en ôter le bouchon de liège. Vous vous accroupissez afin de vous rapprocher du sol et penchez légèrement la bouteille afin de verser quelques goutes du liquide sur la pierre. La potion glisse sur les cailloux, avant de s’échouer dans une petite crevasse, formant une minuscule flaque. Aussitôt, comme brûlé par le Soleil du Sahara, le peu de liquide présent s’assécha, et creusa davantage la pierre, comme de l’acide. Prenant conscience du pouvoir que vous possédez désormais entre vos mains, vous refermez prestement le flacon et le replacez en sureté, dans votre poche."
+			},
+			{
+				"input": "le verser le contenu de la fiole sur moi-même",
+				"result": "Votre curiosité étant grande mais encore loin de la folie, plutôt que de boire le contenu de la fiole, vous décidez de le verser sur votre peau. Vous ôter délicatement le bouchon du flacon, et versez quelques goutes du liquide sur le dos de votre main. Aussitôt, une sensation de brûlure vous saisie, et d’énormes cloques violettes commencent à apparaître, avant de se répandre le long de votre bras, puis sur l’intégralité de votre corps. Le souffle commence à vous manquer, vous basculez en avant. Pendant quelques instants encore, vous luttez pour retrouver une respiration normale, mais vos voies respiratoires sont coupées.\nC’est dans d’atroces souffrances que votre vie s’achève.",
+				"end_story": true
+			},
+			{
+				"input": "le sentir",
+				"result": "Votre curiosité vous pousse à déboucher le flacon. Vous l’approchez de votre nez et inspirez les effluves émanent de la fiole. Une odeur immonde et piquante vous assaille. Avec une grimace e dégoût, vous refermez prestement la bouteille, et la rangez dans votre poche."
+			},
+			{
+				"input": "poser la fiole par terre / l’abandonner",
+				"result": "Ne sachant vraiment que faire avec cette fiole, vous la posez simplement par terre. Vous observez de nouveau les parois autour de vous avant de poser de nouveau votre regard ver la fiole. Or, celle-ci a disparue. Ahuri, vous regardez autour de vous, avant de sentir quelque chose dans votre poche. Vous y glissez vos doigts, et à votre plus grande surprise, il s’agit de cette même fiole jetée quelques instants à peine. Comprenant que cette petite bouteille ne vous fausserez pas compagnie de si tôt, vous la replacer dans votre vêtement."
+			},
+			{
+				"input": "lécher la fiole",
+				"result": "Pris d’un élan de stupidité, vous approchez la fiole de votre bouche, et léchez légèrement le verre. Seul une sensation de froid vous parvient. Vous rangez alors le flacon dans votre poche, sans y réfléchir davantage."
+			},
+			{
+				"input": "jeter la fiole en l’air",
+				"result": "Sans vraiment réfléchir, vous jetez le flacon en l’air. Il atterrit brusquement sur les pavés mais ne se brise pas, au contraire, il rebondit légèrement sur le sol avant de s’arrêter. Vous le fixez quelques instants, et le temps d’un clignement, il a disparu. Ahuris, vous regardez autour de vous, avant de sentir quelque chose dans votre poche. Vous y glissez vos doigts, et à votre plus grande surprise, il s’agit de cette même fiole jetée quelques instants à peine. Comprenant que cette petite bouteille ne vous fausserez pas compagnie de si tôt, vous la replacer dans votre vêtement. "
+			}
+		]
+	}
+]
