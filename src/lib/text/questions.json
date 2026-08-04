@@ -1,9 +1,9 @@
 [
 	{
-		"id": 1,
+		"id": 0,
 		"before_input": "Curieux de cet étrange liquide, vous vous décidez à …",
 		"after_input": "Satisfait de votre action, vous décidez de vous mettre en route, et commencez votre marche le long de la galerie.",
-        "story_id":"2",
+		"story_id": 1,
 		"options": [
 			{
 				"input": "le boire",
