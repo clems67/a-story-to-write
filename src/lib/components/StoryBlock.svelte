@@ -4,6 +4,28 @@
 	import questions from '$lib/text/questions.json';
 	import stories from '$lib/text/story.json';
 
+	let input = $state('');
+	let loading = $state(false);
+	let chapterClosed = $state(false);
+	let endChapterText = $state('');
+	let { story_id, onNewStoryId } = $props();
+
+	let story = stories.find((x) => x.id == story_id);
+	if (story == undefined) {
+		throw Error(`Story n°${story_id} is missing !`);
+	}
+	let question = questions.find((x) => x.id == story?.question_id);
+	if (question == undefined) {
+		throw Error(`The question n°${story?.question_id} of the story n°${story?.id} is missing !`);
+	}
+
+	function resolve_input() {
+		loading = true;
+		llm_classifier(input, question?.id || 0)
+			.then((result) => resolveStoryId(result))
+			.finally(() => (loading = false));
+	}
+
 	async function llm_classifier(user_text: string, question_id: number) {
 		const response = await fetch('/api/classify', {
 			method: 'POST',
@@ -13,45 +35,44 @@
 
 		if (!response.ok) throw new Error(await response.text());
 
-		return response.json();
+		return response.json().then((x) => +x.content);
 	}
 
-	let { story_id } = $props();
-	let story = stories.find((x) => x.id == story_id);
-	if(story == undefined){throw Error(`Story n°${story_id} is missing !`)}
-	let question = questions.find((x) => x.id == story?.question_id);
-	if (question == undefined) {
-		throw Error(`The question n°${story?.question_id} of the story n°${story?.id} is missing !`);
-	}
-
-	let input = $state('');
-	let loading = $state(false);
-
-	function resolve_input() {
-		loading = true;
-		llm_classifier(input, question?.id || 0)
-			.then((result) => console.log(result))
-			.then()
-			.finally(() => (loading = false));
+	function resolveStoryId(optionId: number) {
+		if (optionId != 0) {
+			optionId -= 1; //necessary because option 0 is None
+			const optionChoosed = question?.options[optionId];
+			if (optionChoosed == undefined) {
+				throw Error(`Question n°${question?.id} is missing option°${optionId}`);
+			}
+			const storyId = optionChoosed.story_id;
+			endChapterText = optionChoosed.result + question?.after_input;
+			chapterClosed = true
+			onNewStoryId(storyId);
+		}
 	}
 </script>
 
 <p class="p-5">{story?.text}</p>
 
-<div class="flex items-start justify-center">
-	<form class="pr-3">
-		<textarea
-			class="textarea w-xl"
-			rows="5"
-			placeholder={question.before_input}
-			bind:value={input}></textarea>
-	</form>
+{#if !chapterClosed}
+	<div class="flex items-start justify-center">
+		<form class="pr-3">
+			<textarea
+				class="textarea w-xl"
+				rows="5"
+				placeholder={question.before_input}
+				bind:value={input}></textarea>
+		</form>
 
-	{#if loading}
-		<LoadingSpinner />
-	{:else}
-		<button type="button" class="btn preset-filled" onclick={resolve_input}>
-			<SendHorizontal />
-		</button>
-	{/if}
-</div>
+		{#if loading}
+			<LoadingSpinner />
+		{:else}
+			<button type="button" class="btn preset-filled" onclick={resolve_input}>
+				<SendHorizontal />
+			</button>
+		{/if}
+	</div>
+{:else}
+	<p class="p-5">{endChapterText}</p>
+{/if}
