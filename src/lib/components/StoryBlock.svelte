@@ -3,6 +3,8 @@
 	import LoadingSpinner from '$lib/components/LoadingSpinner.svelte';
 	import questions from '$lib/text/questions.json';
 	import stories from '$lib/text/story.json';
+	import { Toast, createToaster } from '@skeletonlabs/skeleton-svelte';
+	const toaster = createToaster();
 
 	let input = $state('');
 	let loading = $state(false);
@@ -46,9 +48,13 @@
 				throw Error(`Question n°${question?.id} is missing option°${optionId}`);
 			}
 			const storyId = optionChoosed.story_id;
-			endChapterText = optionChoosed.result + question?.after_input;
+			endChapterText = optionChoosed.result + " " + question?.after_input;
 			chapterClosed = true
 			onNewStoryId(storyId);
+		}else{
+			toaster.info({
+				description: 'Vous avez une imagination DÉ-BOR-DANTE\nMalheureusement, cette action est impossible, essayez autre chose !'
+			})
 		}
 	}
 </script>
@@ -76,3 +82,15 @@
 {:else}
 	<p class="p-5">{endChapterText}</p>
 {/if}
+
+<Toast.Group {toaster}>
+	{#snippet children(toast)}
+		<Toast {toast}>
+			<Toast.Message>
+				<Toast.Title>{toast.title}</Toast.Title>
+				<Toast.Description>{toast.description}</Toast.Description>
+			</Toast.Message>
+			<Toast.CloseTrigger />
+		</Toast>
+	{/snippet}
+</Toast.Group>
