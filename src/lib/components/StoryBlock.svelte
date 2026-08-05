@@ -22,6 +22,10 @@
 	}
 
 	function resolve_input() {
+		if(story_id == 2){
+			toaster.success({description: "Merci beaucoup d'avoir testé notre projet !!! La suite de l'histoire est en cours d'écriture."})
+			throw Error()
+		}
 		loading = true;
 		llm_classifier(input, question?.id || 0)
 			.then((result) => resolveStoryId(result))
