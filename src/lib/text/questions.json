@@ -6,7 +6,7 @@
 		"story_id": 1,
 		"options": [
 			{
-				"input": "le boire",
+				"input": "le boire / goûter le contenu / le liquide",
 				"result": "Vous observez encore quelques instants le fragile flacon entre vos doigts, avant de vous décider à en ôter le bouchon de liège. D’un geste peu assuré, vous le portez à vos lèvres, et en une gorgée seulement, vous ingurgitez tout son contenu. Aussitôt, la bouteille vous glisse des mains et tombe au sol, votre ventre semble se tordre, comme s’il voulait se dévorer lui-même. Les forces semblent vous quitter et vous tombez à genoux. Votre tête s’alourdie, le monde tourne infernalement et vous vous effondrez brusquement, une légère coulure bleuâtre au coin des lèvres.\nLa mort vous a emporté.",
 				"end_story": true
 			},
