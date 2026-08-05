@@ -1,0 +1,133 @@
+[
+	{
+		"id": 0,
+		"before_input": "Curieux de cet étrange liquide, vous vous décidez à …",
+		"after_input": "Satisfait de votre action, vous décidez de vous mettre en route, et commencez votre marche le long de la galerie.",
+		"options": [
+			{
+				"input": "le boire / goûter le contenu / le liquide",
+				"result": "Vous observez encore quelques instants le fragile flacon entre vos doigts, avant de vous décider à en ôter le bouchon de liège. D’un geste peu assuré, vous le portez à vos lèvres, et en une gorgée seulement, vous ingurgitez tout son contenu. Aussitôt, la bouteille vous glisse des mains et tombe au sol, votre ventre semble se tordre, comme s’il voulait se dévorer lui-même. Les forces semblent vous quitter et vous tombez à genoux. Votre tête s’alourdie, le monde tourne infernalement et vous vous effondrez brusquement, une légère coulure bleuâtre au coin des lèvres.\nLa mort vous a emporté.",
+				"story_id": 0
+			},
+			{
+				"input": "jeter la fiole par terre",
+				"result": "Sans vraiment réfléchir, vous jetez le flacon au sol. Celui-ci ne se brise pas, au contraire, il rebondit légèrement sur la pierre avant de s’arrêter. Vous le fixez quelques instants, et le temps d’un clignement, il a disparu. Ahuris, vous regardez autour de vous, avant de sentir quelque chose dans votre poche. Vous y glissez vos doigts, et à votre plus grande surprise, il s’agit de cette même fiole jetée quelques instants à peine. Comprenant que cette petite bouteille ne vous fausserez pas compagnie de si tôt, vous la replacer dans votre vêtement.",
+				"story_id": 1
+			},
+			{
+				"input": "ranger la fiole / la remettre dans ma poche",
+				"result": "Vous regardez quelques instants de plus le flacon, avant de le replacer dans votre poche, sans y prêter attention davantage.",
+				"story_id": 1
+			},
+			{
+				"input": "observer / regarder la fiole davantage",
+				"result": "Vous regardez le flacon avec insistance, comme s’il allait vous révéler de lui-même ses secrets. Vous approchez le flacon de vos yeux, et faites un pas vers les cristaux environnants afin d’obtenir davantage de lumière. Vous remarquez alors de petits points blancs flottant dans le liquide épais. Vous mettez un instant avant de vous souvenir de leur appellation, mais vous pensez bien qu’il s’agit de petites graines. Satisfait de votre découverte, vous replacez la petite fiole dans votre poche.",
+				"story_id": 1
+			},
+			{
+				"input": "verser le contenu de la fiole par terre",
+				"result": "Vous regardez le flacon, avant d’en ôter le bouchon de liège. Vous vous accroupissez afin de vous rapprocher du sol et penchez légèrement la bouteille afin de verser quelques goutes du liquide sur la pierre. La potion glisse sur les cailloux, avant de s’échouer dans une petite crevasse, formant une minuscule flaque. Aussitôt, comme brûlé par le Soleil du Sahara, le peu de liquide présent s’assécha, et creusa davantage la pierre, comme de l’acide. Prenant conscience du pouvoir que vous possédez désormais entre vos mains, vous refermez prestement le flacon et le replacez en sureté, dans votre poche.",
+				"story_id": 1
+			},
+			{
+				"input": "le verser le contenu de la fiole sur moi-même",
+				"result": "Votre curiosité étant grande mais encore loin de la folie, plutôt que de boire le contenu de la fiole, vous décidez de le verser sur votre peau. Vous ôter délicatement le bouchon du flacon, et versez quelques goutes du liquide sur le dos de votre main. Aussitôt, une sensation de brûlure vous saisie, et d’énormes cloques violettes commencent à apparaître, avant de se répandre le long de votre bras, puis sur l’intégralité de votre corps. Le souffle commence à vous manquer, vous basculez en avant. Pendant quelques instants encore, vous luttez pour retrouver une respiration normale, mais vos voies respiratoires sont coupées.\nC’est dans d’atroces souffrances que votre vie s’achève.",
+				"story_id": 0
+			},
+			{
+				"input": "le sentir",
+				"result": "Votre curiosité vous pousse à déboucher le flacon. Vous l’approchez de votre nez et inspirez les effluves émanent de la fiole. Une odeur immonde et piquante vous assaille. Avec une grimace e dégoût, vous refermez prestement la bouteille, et la rangez dans votre poche.",
+				"story_id": 1
+			},
+			{
+				"input": "poser la fiole par terre / l’abandonner",
+				"result": "Ne sachant vraiment que faire avec cette fiole, vous la posez simplement par terre. Vous observez de nouveau les parois autour de vous avant de poser de nouveau votre regard ver la fiole. Or, celle-ci a disparue. Ahuri, vous regardez autour de vous, avant de sentir quelque chose dans votre poche. Vous y glissez vos doigts, et à votre plus grande surprise, il s’agit de cette même fiole jetée quelques instants à peine. Comprenant que cette petite bouteille ne vous fausserez pas compagnie de si tôt, vous la replacer dans votre vêtement.",
+				"story_id": 1
+			},
+			{
+				"input": "lécher la fiole",
+				"result": "Pris d’un élan de stupidité, vous approchez la fiole de votre bouche, et léchez légèrement le verre. Seul une sensation de froid vous parvient. Vous rangez alors le flacon dans votre poche, sans y réfléchir davantage.",
+				"story_id": 1
+			},
+			{
+				"input": "jeter la fiole en l’air",
+				"result": "Sans vraiment réfléchir, vous jetez le flacon en l’air. Il atterrit brusquement sur les pavés mais ne se brise pas, au contraire, il rebondit légèrement sur le sol avant de s’arrêter. Vous le fixez quelques instants, et le temps d’un clignement, il a disparu. Ahuris, vous regardez autour de vous, avant de sentir quelque chose dans votre poche. Vous y glissez vos doigts, et à votre plus grande surprise, il s’agit de cette même fiole jetée quelques instants à peine. Comprenant que cette petite bouteille ne vous fausserez pas compagnie de si tôt, vous la replacer dans votre vêtement. ",
+				"story_id": 1
+			}
+		]
+	},
+	{
+		"id": 1,
+		"before_input": "Quoiqu’indécis, vous vous décidez finalement à…",
+		"after_input": "La chèvre n’étant désormais plus qu’un souvenir lointain, vous continuez votre marche le long de la galerie.",
+		"options": [
+			{
+				"input": "l’attaquer.",
+				"result": "Sans la moindre hésitation, vous courrez vers la chèvre en hurlant, les bras tendus vers elle. Aussitôt, l’animal se met à fondre, et glisse sur le sol, redevenant ombre. Vous le regardez se mouvoir sur la pierre grise, avant de disparaître dans une fente de la paroi. Seul quelques miettes de cristaux marquent sa trace.",
+				"story_id": 2
+			},
+			{
+				"input": "reculer.",
+				"result": "Lentement, un pied après l’autre, vous reculez loin de cette étrange chèvre. Celle-ci continue à vous fixer, sans que la moindre pensée ne semble émaner d’elle. Quand vous jugez vous trouver à une distance raisonnable, vous vous arrêter. Vous continuez à regarder la créature manger. Au bout d’un moment, celle-ci semble avoir enfin fini son repas. Alors, elle se met à fondre, et glisse sur le sol, redevenant ombre. Vous la regardez se mouvoir sur la pierre grise, avant de disparaître dans une fente de la paroi. Seul quelques miettes de cristaux marquent sa trace.",
+				"story_id": 2
+			},
+			{
+				"input": "la caresser.",
+				"result": "Une seule pensée vous traverse l’esprit, caresser la bête. Vous faites plusieurs pas vers la créature, qui ne semble pas s’en soucier le moins du monde. Au moment où vous vous trouvez assez proche pour le toucher, l’animal commence à fondre, et glisse sur le sol, redevenant ombre. Vous le regardez se mouvoir sur la pierre grise, avant de disparaître dans une fente de la paroi. Seul quelques miettes de cristaux marquent sa trace.",
+				"story_id": 2
+			},
+			{
+				"input": "s’agenouiller / se mettre à son niveau.",
+				"result": "Timidement, vous faîtes un pas vers la créature. Cette dernière continue à manger, son regard vide posé sur vous. Vous faîtes un pas supplémentaire. La chèvre ne bouge toujours pas. La confiance se saisit de vous, vous posez les pieds l’un devant l’autre, afin de vous rapprochez, toujours davantage. Quand vous jugez vous trouver à une distance raisonnable, vous vous agenouillez, afin d’être au niveau de la bête. Vous tendez doucement la main vers elle. Au moment où vous vous trouvez assez proche pour le toucher, l’animal commence à fondre, et glisse sur le sol, redevenant ombre. Vous le regardez se mouvoir sur la pierre grise, avant de disparaître dans une fente de la paroi. Seul quelques miettes de cristaux marquent sa trace.",
+				"story_id": 2
+			},
+			{
+				"input": "fuir / revenir en arrière.",
+				"result": "Lentement, un pied après l’autre, vous reculez loin de cette étrange chèvre. Celle-ci continue à vous fixer, sans que la moindre pensée ne semble émaner d’elle. Aussitôt, vous vous mettez à courir, cherchant à mettre le plus de distance possible entre vous et cette bestiole étrange. Vous vous retournez, afin d’estimer la distance vous séparant désormais d’elle, mais elle semble avoir disparue. Curieux, vous revenez sur vos pas. Vous apercevez alors une ombre noire glisser entre vos jambes et disparaître au loin. Seul quelques miettes de cristaux marquent sa trace.",
+				"story_id": 2
+			},
+			{
+				"input": "continuer votre chemin.",
+				"result": "Vous regardez quelques instants la chèvre, avant d’hausser les épaules et de vous remettre en route. L’animal vous suit du regard pendant que vous passez devant elle. Une fois dépassée, sans plus vous en soucier, vous continuez à marcher dans la galerie, dans l’espoir de bientôt trouver une sortie. ",
+				"story_id": 2
+			},
+			{
+				"input": "utiliser la potion.",
+				"result": "Vous vous approchez de la chèvre, tout en glissant votre main dans votre poche. Vous en sortez la fiole trouvée plus tôt. Vous en ôtez le bouchon de liège et jetez d’un geste le contenu sur l’animal. Au moment où les premières goutes atteignent le pellage de la créature, celle-ci se met à fondre, et glisse sur le sol, redevenant ombre. Vous la regardez se mouvoir sur la pierre grise, avant de disparaître dans une fente de la paroi. Seul quelques miettes de cristaux marquent sa trace. Vous replacez alors la fiole vide dans votre poche, déçu de l’avoir utilisée pour rien.",
+				"story_id": 2
+			},
+			{
+				"input": "crier bèèèè.",
+				"result": "Une chèvre restant une chèvre, vous poussez un magnifique bêlement qui résonne sous la voute de pierre. L’animal continue à vous fixer, sans que le moindre changement de sa part ne s’opère. Après un moment, pendant lequel vous restez à la fixer en retour, les bras ballants, la chèvre commence à fondre, et glisse sur le sol, redevenant ombre. Vous la regardez se mouvoir sur la pierre grise, avant de disparaître dans une fente de la paroi. Seul quelques miettes de cristaux marquent sa trace.",
+				"story_id": 2
+			},
+			{
+				"input": "crier / lui dire : “WITOU, WITOU !!!” L’orthographe de “witou” n’a pas besoin d’être exacte, cependant il faut que le mot soit répété deux fois. Et donc si la condition précédente est remplie, alors cela prend le pas sur les autres possibilités de réponse.",
+				"result": "De manière instinctive vous vous rappelez les conseils ancestraux de vos aïeux. Avec une voix assurée et aigüe vous criez : “WITOU, WITOU !!!”\nLa chèvre fit soudainement un bon en arrière et, avec hésitation, répondit : “Aurélie ??? C’est toi ???”\nUn immense sentiment de soulagement vous saisie et la tension au sein de la grotte diminua. Vous vous élancez l’un vers l’autre pour une chaleureuse embrassade, des larmes de joie coulant le long de vos joues.\n”Je suis si heureux de te voir !!! Une grande aventure t’attends ! Malheureusement, je ne pourrais pas t’accompagner. Aie confiance ! Je crois en toi !”\nC’est alors que votre chaleureux ami disparu dans une fente de la paroi. Assommé par cet abandon si soudain, vous vous effondrez au sol en larme.\nAprès de longues heures de sanglots, vous vous résignez finalement à vous relever et continuer votre aventure, abattu d’avoir perdu un membre de votre famille.",
+				"story_id": 2
+			}
+		]
+	},
+	{
+		"id": 2,
+		"before_input": "Vous observez les deux galeries et vous décidez à…",
+		"after_input": "",
+		"options": [
+			{
+				"input": "aller à droite",
+				"result": "",
+				"story_id": 0
+			},
+			{
+				"input": "aller à gauche",
+				"result": "",
+				"story_id": 0
+			},
+			{
+				"input": "faire demi-tour",
+				"result": "",
+				"story_id": 0
+			}
+		]
+	}
+]

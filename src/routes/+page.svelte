@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+	import StoryBlock from '$lib/components/StoryBlock.svelte';
+
+	let components = [{ id: crypto.randomUUID(), storyId: 0 }];
+
+	function addComponent(id: number) {
+		components = [...components, { id: crypto.randomUUID(), storyId: id }];
+	}
+</script>
+
+{#each components as component (component.id)}
+	<StoryBlock story_id={component.storyId} onNewStoryId={addComponent} />
+{/each}
