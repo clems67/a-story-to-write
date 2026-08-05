@@ -62,10 +62,10 @@
 <p class="p-5">{story?.text}</p>
 
 {#if !chapterClosed}
-	<div class="flex items-start justify-center">
-		<form class="pr-3">
+	<div class="flex flex-col items-center gap-2 sm:flex-row sm:items-start sm:justify-center">
+		<form class="w-full sm:w-auto sm:pr-3">
 			<textarea
-				class="textarea w-xl"
+				class="textarea w-full sm:w-xl"
 				rows="5"
 				placeholder={question.before_input}
 				bind:value={input}></textarea>
